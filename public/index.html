@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>API QiosPay</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h2>Api QiosPay</h2>
+  <input id="apikey" placeholder="API KEY">
+</header>
+
+<div class="card">
+  <span class="get">GET</span>
+  <h3>Cek Saldo</h3>
+  <button onclick="cekSaldo()">Try It →</button>
+  <pre id="saldo"></pre>
+</div>
+
+<div class="card">
+  <span class="post">POST</span>
+  <h3>Create QRIS Payment</h3>
+  <input id="order_id" placeholder="Order ID">
+  <input id="amount" placeholder="Amount">
+  <button onclick="createQRIS()">Try It →</button>
+  <pre id="qris"></pre>
+</div>
+
+<div class="card">
+    <span class="get">GET</span>
+    <h3>Cek Profile</h3>
+    <button onclick="cekProfile()">Try It →</button>
+  </div>
+  
+  <div class="card">
+    <span class="get">GET</span>
+    <h3>Cek Mutasi QRIS</h3>
+    <button onclick="mutasiQRIS()">Try It →</button>
+  </div>
+  
+  <div class="card">
+    <span class="get">GET</span>
+    <h3>Get OTP</h3>
+    <button onclick="getOTP()">Try It →</button>
+  </div>
+  
+<script src="app.js"></script>
+</body>
+</html>

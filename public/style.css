@@ -1,0 +1,37 @@
+body {
+    font-family: Arial;
+    background: #1f2933;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  input {
+    padding: 8px;
+    margin: 5px 0;
+    width: 100%;
+  }
+  
+  .card {
+    background: #2d3b45;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+  }
+  
+  .get { color: #00ff88 }
+  .post { color: #ffaa00 }
+  
+  button {
+    background: #2196f3;
+    color: white;
+    border: none;
+    padding: 8px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
